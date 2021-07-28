@@ -35,8 +35,8 @@ HELP = """
 
 🎶 **Admin Commands**:
 
-• `/r` __Start Radio__
-• `/sr` __Stops Radio Stream__
+• /r __Start Radio__
+• /sr __Stops Radio Stream__
 
 © Powered By 
 [ __@Amani_m_h_d | Technical Wing__ ]
