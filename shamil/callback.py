@@ -40,13 +40,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('Updates Channel 📌', url='https://t.me/my_test_botz'),
+                InlineKeyboardButton('Subscribe YouTube', url='https://m.youtube.com/channel/UCRfF8JZK4MSQXsXVhhzYI3w')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilhabeeb'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/shamilnelli'),
+                InlineKeyboardButton('Follow on Instagram', url='https://instagram.com/imad_union/')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/MwK-Musics/tree/Radio-only'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://t.me/nokkiirunnoippokittum'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
