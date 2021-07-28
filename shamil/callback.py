@@ -23,16 +23,15 @@ from utils import mp
 from config import Config
 
 HELP = """
-
 🎧 <b>I Can Play Music On VoiceChats 🤪</b>
 
 🎶 **Admin Commands**:
 
-• `/r` __Start Radio__
-• `/sr` __Stops Radio Stream__
+• /r __Start Radio__
+• /sr __Stops Radio Stream__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ __@Amani_m_h_d | Technical Wing__ ]
 """
 
 
