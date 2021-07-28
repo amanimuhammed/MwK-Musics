@@ -29,7 +29,7 @@ U=USERNAME
 CHAT=Config.CHAT
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Bot Project by MwK MusicS\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={}),\n\n Iam A Bot Project by Technical Wing.\n I Can Manage Group VC.\n\n Hit /help to know about available commands.\n\n 🏷️ Maintained By: @Amani_m_h_d</b> "
 HELP = """
 🎧 <b>I Can Play Music On VoiceChats 🤪</b>
 
@@ -39,7 +39,7 @@ HELP = """
 • `/sr` __Stops Radio Stream__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ __@Amani_m_h_d | Technical Wing__ ]
 """
 
 
@@ -50,13 +50,13 @@ async def start(client, message):
         [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('Updates Channel 📌', url='https://t.me/my_test_botz'),
+                InlineKeyboardButton('Subscribe YouTube', url='https://m.youtube.com/channel/UCRfF8JZK4MSQXsXVhhzYI3w')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/shamilnelli'),
+                InlineKeyboardButton('Follow on Instagram', url='https://instagram.com/imad_union/')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/MwK-Musics/tree/Radio-only'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://t.me/nokkiirunnoippokittum'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -68,13 +68,13 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('Updates Channel 📌', url='https://t.me/my_test_botz'),
+                InlineKeyboardButton('Subscribe YouTube', url='https://m.youtube.com/channel/UCRfF8JZK4MSQXsXVhhzYI3w')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/shamilnelli'),
+                InlineKeyboardButton('Follow on Instagram', url='https://instagram.com/imad_union/')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/MwK-Musics/tree/Radio-only'),
+                InlineKeyboardButton('📜 Source Code 📜', url='https://t.me/nokkiirunnoippokittum'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
